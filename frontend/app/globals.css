@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0a0a;
+  --fg: #ededed;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+body {
+  /* subtle grid texture */
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* thin custom scrollbars to match the brutalist look */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2a2a2a transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+}
+
+/* focus glow used by the PR input */
+.input-glow:focus {
+  outline: none;
+  border-color: rgba(61, 214, 140, 0.6);
+  box-shadow:
+    0 0 0 1px rgba(61, 214, 140, 0.4),
+    0 0 18px rgba(61, 214, 140, 0.25);
+}

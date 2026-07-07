@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langchain
+langgraph
+langchain-groq
+PyGithub
+redis
+fakeredis
+python-dotenv
+httpx
