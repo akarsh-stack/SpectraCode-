@@ -1,4 +1,4 @@
-# 🤖 code-review-agent
+# 🤖 SpectraCode
 
 An AI-powered pull-request reviewer. Three specialized agents — **security**,
 **performance**, and **style** — analyze a diff in parallel, a fourth
