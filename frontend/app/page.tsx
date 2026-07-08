@@ -84,7 +84,7 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.15, duration: 0.5 }}
               >
-                <MonoLabel>code-review-agent</MonoLabel>
+                <MonoLabel>SpectraCode</MonoLabel>
                 <h1 className="mt-4 text-4xl font-semibold tracking-tight text-zinc-100">
                   Review a pull request
                 </h1>

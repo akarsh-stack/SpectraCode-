@@ -63,7 +63,7 @@ export default function HistoryPage() {
     <main className="mx-auto max-w-5xl px-6 py-10">
       <div className="mb-6 flex items-end justify-between">
         <div>
-          <MonoLabel>code-review-agent</MonoLabel>
+          <MonoLabel>SpectraCode</MonoLabel>
           <h1 className="mt-2 text-2xl font-semibold tracking-tight text-zinc-100">
             Review history
           </h1>

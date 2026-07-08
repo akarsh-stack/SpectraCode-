@@ -8,8 +8,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Code Review Agent",
-  description: "AI-powered pull request reviews",
+  title: "SpectraCode",
+  description: "AI-powered pull request reviews — three specialized agents analyze security, performance, and style in parallel.",
 };
 
 export default function RootLayout({
