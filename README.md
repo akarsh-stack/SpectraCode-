@@ -205,4 +205,4 @@ the API routes (including webhook signature verification).
 **Backend:** FastAPI · LangGraph · LangChain · langchain-groq
 (`llama-3.3-70b-versatile`) · PyGithub · fakeredis · httpx
 **Frontend:** Next.js 15 (App Router) · React 19 · Tailwind CSS · framer-motion
-**Infra:** Docker Compose · Redis
+**Infra:** Docker Compose · Redis.
