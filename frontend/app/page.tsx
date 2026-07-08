@@ -84,7 +84,17 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.15, duration: 0.5 }}
               >
-                <MonoLabel>SpectraCode</MonoLabel>
+                {/* SpectraCode wordmark */}
+                <span
+                  className="font-[family-name:var(--font-orbitron)] text-2xl font-bold tracking-[0.2em] uppercase"
+                  style={{
+                    color: "#3dd68c",
+                    textShadow: "0 0 18px rgba(61,214,140,0.8), 0 0 40px rgba(61,214,140,0.4), 0 0 80px rgba(61,214,140,0.2)",
+                    letterSpacing: "0.25em",
+                  }}
+                >
+                  Spectra<span style={{ color: "#ffffff", textShadow: "0 0 18px rgba(255,255,255,0.4)" }}>Code</span>
+                </span>
                 <h1 className="mt-4 text-4xl font-semibold tracking-tight text-zinc-100">
                   Review a pull request
                 </h1>
@@ -178,7 +188,16 @@ export default function Home() {
               }}
             >
               <div className="mb-8 text-center">
-                <MonoLabel>analyzing</MonoLabel>
+                <span
+                  className="font-[family-name:var(--font-orbitron)] text-2xl font-bold uppercase"
+                  style={{
+                    color: "#3dd68c",
+                    textShadow: "0 0 18px rgba(61,214,140,0.8), 0 0 40px rgba(61,214,140,0.4)",
+                    letterSpacing: "0.25em",
+                  }}
+                >
+                  Spectra<span style={{ color: "#ffffff", textShadow: "0 0 18px rgba(255,255,255,0.4)" }}>Code</span>
+                </span>
                 <h2 className="mt-3 font-mono text-lg tracking-tight text-zinc-200">
                   <span className="text-[#3dd68c]">▍</span> running agents…
                 </h2>

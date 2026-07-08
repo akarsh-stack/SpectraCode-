@@ -63,7 +63,16 @@ export default function HistoryPage() {
     <main className="mx-auto max-w-5xl px-6 py-10">
       <div className="mb-6 flex items-end justify-between">
         <div>
-          <MonoLabel>SpectraCode</MonoLabel>
+          <span
+            className="font-[family-name:var(--font-orbitron)] text-xl font-bold uppercase"
+            style={{
+              color: "#3dd68c",
+              textShadow: "0 0 18px rgba(61,214,140,0.8), 0 0 40px rgba(61,214,140,0.4)",
+              letterSpacing: "0.25em",
+            }}
+          >
+            Spectra<span style={{ color: "#ffffff", textShadow: "0 0 18px rgba(255,255,255,0.4)" }}>Code</span>
+          </span>
           <h1 className="mt-2 text-2xl font-semibold tracking-tight text-zinc-100">
             Review history
           </h1>

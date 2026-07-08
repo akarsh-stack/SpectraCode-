@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { Geist_Mono } from "next/font/google";
+import { Geist_Mono, Orbitron } from "next/font/google";
 import "./globals.css";
 
 const geistMono = Geist_Mono({
   subsets: ["latin"],
   variable: "--font-geist-mono",
+});
+
+const orbitron = Orbitron({
+  subsets: ["latin"],
+  variable: "--font-orbitron",
+  weight: ["400", "600", "700", "900"],
 });
 
 export const metadata: Metadata = {
@@ -18,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistMono.variable} antialiased bg-[#0a0a0a] text-[#ededed]`}
+        className={`${geistMono.variable} ${orbitron.variable} antialiased bg-[#0a0a0a] text-[#ededed]`}
       >
         {children}
       </body>
