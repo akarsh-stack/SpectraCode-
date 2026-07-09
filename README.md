@@ -10,6 +10,7 @@ dashboard, orchestrated with Docker Compose and backed by Redis.
 
 ![demo](docs/demo.gif) <!-- TODO: drop a demo GIF here -->
 
+
 ---
 
 ## ✨ Features
